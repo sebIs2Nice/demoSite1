@@ -1,0 +1,70 @@
+body {
+    background-color: aquamarine;
+}
+
+
+/*
+to call upon a class name, we use ".className"
+*/
+
+.JDM {
+    background-color: greenyellow;
+}
+
+
+/* to call upon an ID name, We use "#IDname"*/
+
+#Evo h2 {
+    /* to change text color, is just color*/
+    color: red;
+}
+
+.JDM h2 {
+    color: black;
+}
+
+.JDM h2 {
+    color: blue;
+}
+
+
+/*   Placing images side by side    */
+
+.JDM {
+    float: left;
+    width: 95;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* Arranging the Top Menu */
+
+.top {
+    background-color: yellow;
+    overflow: hidden;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Styling the length and the top Navigation*/
+
+.top a {
+    float: left;
+    display: block;
+    color: purple;
+    padding: 20px 16px;
+    font-size: 18px;
+}
+
+.top a:hover {
+    background-color: white;
+    color: pink;
+}
+
+.top a.active {
+    background-color: burlywood;
+    color: blue;
+}
