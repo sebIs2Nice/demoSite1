@@ -73,7 +73,11 @@ to call upon a class name, we use ".className"
 /* Adding a background image*/
 
 #Title {
-    padding: 20px 20px;
+    /*when padding an image, 
+    if you want to create distace at the bottom
+    the full image must be shown.*/
+    padding: 30px;
     background-image: url(Pictures/Lesson\ One/blossom.jpeg);
     background-repeat: no-repeat;
+    background-size: 100% 20vh;
 }
