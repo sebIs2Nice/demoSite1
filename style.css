@@ -68,3 +68,11 @@ to call upon a class name, we use ".className"
     background-color: burlywood;
     color: blue;
 }
+
+
+/* Adding a background image*/
+
+#Title {
+    padding: 20px 20px;
+    background-image: url(Pictures/Lesson\ One/blossom.jpeg);
+}
