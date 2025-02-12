@@ -75,4 +75,5 @@ to call upon a class name, we use ".className"
 #Title {
     padding: 20px 20px;
     background-image: url(Pictures/Lesson\ One/blossom.jpeg);
+    background-repeat: no-repeat;
 }
